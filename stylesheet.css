@@ -1,0 +1,113 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, 
+blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, 
+ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+center, u, b, i {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-weight: normal;
+     font-style: normal;
+     
+     
+     vertical-align: baseline
+}
+body {
+     line-height: 1;
+     background-color:#ffffff;
+
+}
+
+
+
+:focus {
+     outline: 0
+}
+
+ol, ul {
+     list-style: none
+}
+
+table {
+     border-collapse: collapse;
+     border-spacing: 0
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+     content: ""
+}
+
+blockquote, q {
+     quotes: "" ""
+}
+
+input, textarea {
+     margin: 0;
+     padding: 0
+}
+
+hr {
+    
+     background-color: #F1463D;
+     height: 1px;
+     width: 29%;
+     border-color: #F1463D;
+     border: 0;
+}
+
+p{
+     font-weight: 300;
+     font-family: 'Roboto Slab', serif;
+     line-height: 2.7ex;
+     font-size: 13px;
+     color: #000000;
+     letter-spacing: 0.08ex;
+     
+     
+}
+h1{
+    
+    font-weight: 400;
+     font-family: 'Roboto Slab', serif;
+     font-size: 2.5em;
+     color: #ffffff;
+      line-height: 1ex;
+      text-align: left;
+}
+
+
+h2 {
+     font-weight: 400;
+     font-family: 'Roboto Slab', serif;
+     line-height: 3ex;
+     font-size: 30px;
+     color: #000000;
+     margin-top: 0;
+
+}
+
+a{
+ text-decoration: none;
+ color: #000000;
+ 
+}
+.container{
+    height: 100%;
+     margin-left:auto;
+     margin-right: auto;
+     display: flex;
+      flex-direction: column; 
+      align-content:center;
+
+}
+img{
+  height: 100%;
+}
+
