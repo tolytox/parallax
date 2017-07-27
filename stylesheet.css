@@ -24,13 +24,14 @@ html{height:
   100%;
 max-width: none;}
 body {
-     line-height: 1;
-     background-color:#000000;
-     height: 100%;
-     max-width: none;
-
-
+    overflow-y:hidden;
+    overflow-x:scroll;
+    display:-ms-flexbox;
+    -ms-flex-direction:row;
+    height: 100%;
+    width: 250%;
 }
+
 
 
 
@@ -106,21 +107,27 @@ a{
  
 }
 
-.container{
-   background: url("caso8.jpg") repeat-x left top;
-  -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
 
-    height: 100%;
-    width: 250%;
-    margin-top: auto;
-    margin-bottom: auto;
-      display: flex;
-      flex-direction: column; 
-      align-content:center;
 
+
+
+#bg1, #bg2, #bg3 {
+    z-index:50;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:url(img/bubbles.png) repeat 0 0;
+}
+
+#bg2 {
+    z-index:49;
+    background-image:url(img/bubbles2.png);
+}
+
+#bg3 {
+    z-index:48;
+    background-image:url(img/bubbles3.png);
 }
 
 
